@@ -9,7 +9,7 @@ const FacultyDevelopementProgram = () => {
       <div
         className="carousel-1"
         style={{
-          backgroundImage: `url(${"https://svist.org/wp-content/uploads/2023/04/Faculty-Development-Programme-Image.webp"})`,
+          backgroundImage: `url(${"https://dev.rareminds.in/wp-content/uploads/2023/02/faculty-development-programcp.jpg"})`,
         }}
       >
         <div className="element">
@@ -74,7 +74,7 @@ const FacultyDevelopementProgram = () => {
                     <li>
                       <ul>
                         <li>
-                          <img src="https://www.shutterstock.com/image-vector/award-ceremony-nomination-name-podium-600nw-2494638003.jpg" />
+                          <img src="https://www.iferp.in/blog/wp-content/uploads/2023/03/Important-Topics-For-Faculty-Development-Programme-1-840x560.jpg" />
                         </li>
                         <li>
                           <ul>
@@ -92,9 +92,9 @@ const FacultyDevelopementProgram = () => {
                               <p>
                               India is one among the countries that has the highest number of educational institutions in the world and, consequently, the highest number of teachers and faculty members. The unprecedented growth of institutions in India in the past two decades has led to a shortage of updated and well trained faculty members and has created a quality challenge for education. In recent years, though ICT educational tools have been understood and adopted by many institutions, the same is not true for educational planning and implementation. There is a need for well-trained faculty members who will help improve programs to produce quality graduates.
                               </p>
-                              <p>
+                              {/* <p>
                               Increasing internationalization in teaching is strongly supported by the Indian education sector and is considered vital for Indian institutions in developing India’s capacity in research and innovation, driving up India’s institutional ranking and increasing the quality of teaching and learning. Thus, enhancing the academic and intellectual environment in the institutions by providing faculty members with ample opportunities to pursue research and also to participate in seminars / conferences / workshops has become vital for developing nations like India. Participation in such programmes would enable faculty members to update their research and pedagogical skills. Higher education institutions are starting to adapt and respond to professionals already in employment, mature learners and the demand from students enrolled for skills for employability programs. With the aim of equipping faculty members with required skills and knowledge, ICT Academy pursues the Faculty Development Program as its primary objective.
-                              </p>
+                              </p> */}
                             </li>
                           </ul>
                         </li>
@@ -110,11 +110,11 @@ const FacultyDevelopementProgram = () => {
           <li>
             <ul>
             <li>
-                <h1>ICT Academy Faculty Development Framework</h1>
+                <h1>Bharat Rites Faculty Development Framework</h1>
               </li>
               <li>
                 <p>
-                ICT ACADEMY HAS EVOLVED A FRAMEWORK FOR COURSE DEVELOPMENT, FACULTY TRAINING AND STUDENT TRAINING. THE FRAMEWORK HAS BEEN MADE WITH FOCUS IN MAKING THE TRANSMISSION OF KNOWLEDGE FROM THE FACULTY TO STUDENTS HIGHLY EFFECTIVE WITH ALL THE TOOLS ASSOCIATED WITH THE SAME. ICT ACADEMY TRAINING FRAMEWORK IS DEVELOPED WITH TOT, STUDENT TRAINING FOLLOWED BY ASSESSMENT AND CERTIFICATION.
+                BHARAT RITES HAS EVOLVED A FRAMEWORK FOR COURSE DEVELOPMENT, FACULTY TRAINING AND STUDENT TRAINING. THE FRAMEWORK HAS BEEN MADE WITH FOCUS IN MAKING THE TRANSMISSION OF KNOWLEDGE FROM THE FACULTY TO STUDENTS HIGHLY EFFECTIVE WITH ALL THE TOOLS ASSOCIATED WITH THE SAME. ICT ACADEMY TRAINING FRAMEWORK IS DEVELOPED WITH TOT, STUDENT TRAINING FOLLOWED BY ASSESSMENT AND CERTIFICATION.
                 </p>
               </li>
               <li>

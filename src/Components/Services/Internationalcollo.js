@@ -115,9 +115,7 @@ const Internationalcollo = () => {
             </li>
           </ul>
         </li>
-        <li>
-          h2llo 2
-        </li>
+      
       </ul>
     </div>
   )

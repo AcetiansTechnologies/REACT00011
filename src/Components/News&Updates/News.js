@@ -109,8 +109,13 @@ const News = () => {
             </div>
           </div>
         </li>
-        <div className="NewsAndUpdates">
-          <div className="w-full max-w-sm min-w-[200px]">
+        <div className="news-heading">
+        <h1>
+        Global Updates: The Latest Developments from Around the World</h1>
+      </div>
+
+      <div className="news-search">
+      <div className="w-full max-w-sm min-w-[200px]">
             <div className="relative flex items-center">
               <div className="absolute flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 top-2.5 ml-3 text-orange-600">
@@ -135,6 +140,8 @@ const News = () => {
               </button>
             </div>
           </div>
+      </div>
+        <div className="NewsAndUpdates">
           
           <ul>
             {blogPosts.map((post) => (

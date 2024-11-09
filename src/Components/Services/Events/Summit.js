@@ -38,11 +38,11 @@ const Summit = () => {
                 <li>
                   <ul>
                     <li>
-                      <h2>EduSkills HR Summit & Awards 2024</h2>
+                      <h2>Bharat Rites HR Summit & Awards 2024</h2>
                     </li>
                     <li>
                       <p>
-                      The EduSkills HR Summit on 28th Sep 2024 is dedicated to acknowledging and honouring organisations and individuals who have demonstrated exceptional commitment and creativity in facilitating the transition from campus to corporate, with a particular focus on institutions in tier-2 and tier-3 cities. This recognition is significant in highlighting efforts to bridge the gap between academic learning and the demands of the industry, ensuring that graduates are equipped for the corporate world. The summit also emphasizes the importance of supporting institutions in smaller cities and towns, thereby strengthening their contribution to the workforce. We look forward to presenting you with the Awards of appreciation from AICTE, Ministry of Education, Govt. of India for your invaluable support of the AICTE - EduSkills Virtual Internship Programs.
+                      The Bharat Rites HR Summit on 28th Sep 2024 is dedicated to acknowledging and honouring organisations and individuals who have demonstrated exceptional commitment and creativity in facilitating the transition from campus to corporate, with a particular focus on institutions in tier-2 and tier-3 cities. This recognition is significant in highlighting efforts to bridge the gap between academic learning and the demands of the industry, ensuring that graduates are equipped for the corporate world. The summit also emphasizes the importance of supporting institutions in smaller cities and towns, thereby strengthening their contribution to the workforce. We look forward to presenting you with the Awards of appreciation from AICTE, Ministry of Education, Govt. of India for your invaluable support of the AICTE - Bharat Rites Virtual Internship Programs.
                       </p>
                     </li>
                   </ul>

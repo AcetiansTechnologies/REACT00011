@@ -10,7 +10,7 @@ const BharatTalk = () => {
     <div>
        <div
             className="carousel-1"
-            style={{ backgroundImage: `url(${"https://thumbs.dreamstime.com/b/young-black-couple-can-phone-orange-background-creative-proposal-african-american-having-talk-copy-space-137327527.jpg"})` }}
+            style={{ backgroundImage: `url(${"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLfPssDiZQDciD7VLMSKgSjzRQCsXKVDEpng&s"})` }}
           >
             <div className="element">
               <h1>Bharat Talk</h1>
@@ -46,13 +46,13 @@ Through its thoughtfully curated sessions, Bharat Talks aims to cultivate a vibr
               <li>
                 <ul>
                     <li>
-                      <img src='https://bharatrites.org/wp-content/uploads/2023/04/image-2-270x280_c.jpg'/>
+                      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEywkzyk1U_XOMHyJvz7PaXg59I0fsu-DFWf0r8ekn8GH6aQ6SgmS4JifJhiE2ItayTXE&usqp=CAU'/>
                     </li>
                     <li>
                       <ul>
 
                         <li>
-                          <h1>Amir Declan</h1>
+                          <h1>Vijayendra Patel</h1>
                         </li>
                         <li>
                           <p>Media Adviser - Londan</p>
@@ -80,13 +80,48 @@ Through its thoughtfully curated sessions, Bharat Talks aims to cultivate a vibr
               <li>
                 <ul>
                     <li>
-                      <img src='https://bharatrites.org/wp-content/uploads/2023/04/image-2-270x280_c.jpg'/>
+                      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvPjlTENy2Gvl-EWYWo4cY7xF9VmEXByWWhzevTCsJ7HMYm5MGX6oTXcLEc0ajJz4LGwU&usqp=CAU'/>
                     </li>
                     <li>
                       <ul>
 
                         <li>
-                          <h1>Amir Declan</h1>
+                          <h1>Madhusudan Joshi</h1>
+                        </li>
+                        <li>
+                          <p>Media Adviser - Londan</p>
+                        </li>
+                        <li>
+                          <p>Follows Program</p>
+                        </li>
+                        <li>
+                          <ul>
+                            <li>
+                              <Facebook/>
+                            </li>
+                            <li>
+                              <Twitter/>
+                            </li>
+                            <li>
+                              <Instagram/>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                </ul>
+              </li>
+             
+              <li>
+                <ul>
+                    <li>
+                      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Qkmm8eQtfOnnT3DzIVCU5LFdJilPv5-hKCVtGyAa-gThu75_kIJLcfWHjmy5952qjiM&usqp=CAU'/>
+                    </li>
+                    <li>
+                      <ul>
+
+                        <li>
+                          <h1>Raghunath</h1>
                         </li>
                         <li>
                           <p>Media Adviser - Londan</p>
@@ -114,13 +149,13 @@ Through its thoughtfully curated sessions, Bharat Talks aims to cultivate a vibr
               <li>
                 <ul>
                     <li>
-                      <img src='https://bharatrites.org/wp-content/uploads/2023/04/image-2-270x280_c.jpg'/>
+                      <img src='https://i.ytimg.com/vi/ywtRWiotpXw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBTW0XARwIxogxupiLevMRlQNGcFA'/>
                     </li>
                     <li>
                       <ul>
 
                         <li>
-                          <h1>Amir Declan</h1>
+                          <h1>Vijaykumar Mehta</h1>
                         </li>
                         <li>
                           <p>Media Adviser - Londan</p>
@@ -148,13 +183,13 @@ Through its thoughtfully curated sessions, Bharat Talks aims to cultivate a vibr
               <li>
                 <ul>
                     <li>
-                      <img src='https://bharatrites.org/wp-content/uploads/2023/04/image-2-270x280_c.jpg'/>
+                      <img src='https://talkstar-photos.s3.amazonaws.com/uploads/96febc8a-81b9-4829-8e24-3686796c0dd4/ReshmaSaujani_2016-stageshot.jpg'/>
                     </li>
                     <li>
                       <ul>
 
                         <li>
-                          <h1>Amir Declan</h1>
+                          <h1>Parvati Shukla</h1>
                         </li>
                         <li>
                           <p>Media Adviser - Londan</p>
@@ -182,47 +217,13 @@ Through its thoughtfully curated sessions, Bharat Talks aims to cultivate a vibr
               <li>
                 <ul>
                     <li>
-                      <img src='https://bharatrites.org/wp-content/uploads/2023/04/image-2-270x280_c.jpg'/>
+                      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo_MIr1vepU_VBIgEVegyldznBxBGR1pT_PQ&s'/>
                     </li>
                     <li>
                       <ul>
 
                         <li>
-                          <h1>Amir Declan</h1>
-                        </li>
-                        <li>
-                          <p>Media Adviser - Londan</p>
-                        </li>
-                        <li>
-                          <p>Follows Program</p>
-                        </li>
-                        <li>
-                          <ul>
-                            <li>
-                              <Facebook/>
-                            </li>
-                            <li>
-                              <Twitter/>
-                            </li>
-                            <li>
-                              <Instagram/>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                </ul>
-              </li>
-              <li>
-                <ul>
-                    <li>
-                      <img src='https://bharatrites.org/wp-content/uploads/2023/04/image-2-270x280_c.jpg'/>
-                    </li>
-                    <li>
-                      <ul>
-
-                        <li>
-                          <h1>Amir Declan</h1>
+                          <h1>Bhaskar Iyer</h1>
                         </li>
                         <li>
                           <p>Media Adviser - Londan</p>

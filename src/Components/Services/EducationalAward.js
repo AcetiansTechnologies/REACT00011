@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Angle from '../SavIcon/RightAngle'
-import Img1 from '../Home/HomeIMage/Imag8.jpeg';
-import Img2 from '../Home/HomeIMage/Imgae2.jpeg';
-import Img3 from '../Home/HomeIMage/IMG-20241107-WA0004.jpg';
-import Img4 from '../Home/HomeIMage/IMG-20241107-WA0007.jpg';
-import Img5 from '../Home/HomeIMage/Img1.jpeg';
-import Img6 from '../Home/HomeIMage/Img2.jpeg';
-import Img7 from '../Home/HomeIMage/Img3.jpeg';
-import Img8 from '../Home/HomeIMage/Img4.jpeg';
-import Img9 from '../Home/HomeIMage/Img5.jpeg';
+import Img1 from '../Home/HomeIMage/aw1.jpeg';
+import Img2 from '../Home/HomeIMage/aw2.jpeg';
+import Img3 from '../Home/HomeIMage/aw4.jpg';
+import Img4 from '../Home/HomeIMage/aw4.jpg';
+import Img5 from '../Home/HomeIMage/aw5.jpg';
+import Img6 from '../Home/HomeIMage/aw6.jpg';
+import Img7 from '../Home/HomeIMage/aw7.jpg';
+import Img8 from '../Home/HomeIMage/aw8.jpg';
+import Img9 from '../Home/HomeIMage/aw9.jpg';
 
 const EducationalAward = () => {
   return (

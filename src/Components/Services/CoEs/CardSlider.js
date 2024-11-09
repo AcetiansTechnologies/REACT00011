@@ -137,7 +137,7 @@ const CardSlider = () => {
                     <li>
                       <img src={card.Image} alt={card.title} />
                     </li>
-                    <li>
+                    {/* <li>
                       <h2>{card.title}</h2>
                     </li>
                     <li>
@@ -148,7 +148,7 @@ const CardSlider = () => {
                     </li>
                     <li>
                       <h5>Read More</h5>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               ))}

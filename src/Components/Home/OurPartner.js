@@ -4,10 +4,9 @@ const OurRequriters = () => {
   return (
     <div className='OurPartner'>
         <ul>
+           
             <li>
-                <h1>Our partners</h1>
-            </li>
-            <li>
+            <h1>Our Partners</h1>
                 <ul>
                     <li>
                         <img src='https://eduskillsfoundation.org/wp-content/uploads/2023/11/google-1536x505.png'/>

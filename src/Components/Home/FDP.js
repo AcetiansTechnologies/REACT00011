@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Arrowright from "../SVG Icon/Arrowright";
 import Arrowleft from "../SVG Icon/Arrowleft";
-import Img1 from './HomeIMage/Img1.jpeg'
-import Img2 from './HomeIMage/Img2.jpeg'
-import Img3 from './HomeIMage/Img3.jpeg'
-import Img4 from './HomeIMage/Img4.jpeg'
-import Img5 from './HomeIMage/Img5.jpeg'
-import Img6 from './HomeIMage/Img6.jpeg'
-import Img7 from './HomeIMage/Img7.jpeg'
-import Img8 from './HomeIMage/Img8.jpeg'
-import Img9 from './HomeIMage/Img9.jpeg'
+import Img1 from './HomeIMage/fd1.jpg'
+import Img2 from './HomeIMage/fd2.jpeg'
+import Img3 from './HomeIMage/fd3.jpeg'
+import Img4 from './HomeIMage/fd4.jpeg'
+import Img5 from './HomeIMage/fd5.jpg'
+import Img6 from './HomeIMage/fd6.jpeg'
+import Img7 from './HomeIMage/fd7.jpeg'
+import Img8 from './HomeIMage/fd8.jpeg'
+import Img9 from './HomeIMage/fd9.jpeg'
 
 const cardsData = [
   {

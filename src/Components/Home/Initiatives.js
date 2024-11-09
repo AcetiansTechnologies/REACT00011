@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
 import Arrowright from "../SVG Icon/Arrowright";
 import Arrowleft from "../SVG Icon/Arrowleft";
-import Img1 from './HomeIMage/IMG-20241107-WA0003.jpg'
-import Img2 from './HomeIMage/IMG-20241107-WA0004.jpg'
-import Img4 from './HomeIMage/IMG-20241107-WA0005.jpg'
-import Img5 from './HomeIMage/IMG-20241107-WA0006.jpg'
-import Img6 from './HomeIMage/IMG-20241107-WA0007.jpg'
-import Img7 from './HomeIMage/IMG-20241107-WA0008.jpg'
-import Img8 from './HomeIMage/IMG-20241107-WA0009.jpg'
+import Img1 from './HomeIMage/ini1.jpg'
+import Img2 from './HomeIMage/ini2.jpeg'
+import Img3 from './HomeIMage/ini3.jpeg'
+import Img4 from './HomeIMage/ini5.jpg'
+import Img5 from './HomeIMage/ini6.jpg'
+import Img6 from './HomeIMage/ini7.jpeg'
+import Img7 from './HomeIMage/ini8.jpeg'
+import Img8 from './HomeIMage/ini9.jpg'
+import Img9 from './HomeIMage/ini2.jpeg'
+
 
 
 const cardsData = [
@@ -34,7 +37,7 @@ const cardsData = [
     title: "Card 3",
     content: "This is card 3",
     Image:
-    Img8,
+    Img3,
     people: "200",
     Message: "20",
   },
@@ -88,7 +91,7 @@ const cardsData = [
     title: "Card 6",
     content: "This is card 6",
     Image:
-    Img4,
+    Img9,
     people: "200",
     Message: "20",
   },

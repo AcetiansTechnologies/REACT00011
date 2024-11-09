@@ -2,13 +2,13 @@ import React from "react";
 import { useEffect} from "react";
 import { useState } from "react";
 
-import Img1 from './HomeIMage/IMG-20241107-WA0003.jpg'
-import Img2 from './HomeIMage/IMG-20241107-WA0004.jpg'
-import Img4 from './HomeIMage/IMG-20241107-WA0005.jpg'
-import Img5 from './HomeIMage/IMG-20241107-WA0006.jpg'
-import Img6 from './HomeIMage/IMG-20241107-WA0007.jpg'
-import Img7 from './HomeIMage/IMG-20241107-WA0008.jpg'
-import Img8 from './HomeIMage/IMG-20241107-WA0009.jpg'
+import Img1 from './HomeIMage/rn3.jpeg'
+import Img2 from './HomeIMage/ini3.jpeg'
+import Img4 from './HomeIMage/aw4.jpg'
+import Img5 from './HomeIMage/ini8.jpeg'
+import Img6 from './HomeIMage/rn2.jpeg'
+import Img7 from './HomeIMage/aw4.jpg'
+import Img8 from './HomeIMage/aw8.jpg'
 
 
 const images = [Img1,Img2,Img4,Img5,Img6,Img7,Img8];

@@ -1,7 +1,7 @@
 import React from 'react'
-import Img1 from './HomeIMage/IMage12.jpeg'
-import Img2 from './HomeIMage/IMg13.jpeg'
-import Img3 from './HomeIMage/Img11.jpeg'
+import Img1 from './HomeIMage/rn1.jpeg'
+import Img2 from './HomeIMage/rn2.jpeg'
+import Img3 from './HomeIMage/rn3.jpeg'
 
 const SkillsRanking = () => {
   return (

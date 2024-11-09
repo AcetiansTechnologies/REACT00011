@@ -12,7 +12,7 @@ const AtalLabTraning = () => {
         }}
       >
         <div className="element">
-          <h1>Training And CCertificate</h1>
+          <h1>Training And Certificate</h1>
           <div>
             <ul>
               <li className="Contact-home">
@@ -47,7 +47,7 @@ const AtalLabTraning = () => {
               <li>
                 <ul>
                   <li>
-                    <img src='https://www.agilent.com/cs/publishingimages/Agilent-University-Infographic.jpg'/>
+                    <img src='https://media.gettyimages.com/id/1367521597/vector/e-learning-object-and-elements-vector-doodle-illustration-collection-hand-drawn-icon-set-or.jpg?s=612x612&w=gi&k=20&c=86NtSpLDEzUyhFA9FnJ2vhLj1yQYTDjs9Z3f2GZBUo8='/>
                   </li>
                   <li>
                     <h1>Join our global network of scientists
@@ -67,7 +67,7 @@ const AtalLabTraning = () => {
               <li>
                 <ul>
                   <li>
-                    <img src='https://www.agilent.com/cs/publishingimages/Agilent-University-Infographic.jpg'/>
+                    <img src='https://media.gettyimages.com/id/2174505248/vector/school-education-concept-line-style-vector-illustration.jpg?s=612x612&w=gi&k=20&c=X6fUS4AlwP4Z3Jb9S1Tk9PDzv2hWTz6htqTX7wsuZgE='/>
                   </li>
                   <li>
                     <h1>Join our global network of scientists
@@ -86,7 +86,7 @@ const AtalLabTraning = () => {
               <li>
                 <ul>
                   <li>
-                    <img src='https://www.agilent.com/cs/publishingimages/Agilent-University-Infographic.jpg'/>
+                    <img src='https://media.gettyimages.com/id/1414493174/vector/education-related-vector-design-concept.jpg?s=612x612&w=gi&k=20&c=TyyHHfynm_Ci8iMvUJMBmBRHiR6RuyqcFh6HuWmktbk='/>
                   </li>
                   <li>
                     <h1>Join our global network of scientists
@@ -118,7 +118,7 @@ const AtalLabTraning = () => {
               <li>
                 <ul>
                   <li>
-                    <img src='https://www.agilent.com/cs/publishingimages/watch-a-video-to-create-an-Agilent-university-account.jpg'/>
+                    <img src='https://img.freepik.com/free-vector/flat-horizontal-banner-template-international-day-education-event_23-2149951705.jpg'/>
                   </li>
                   <li>
                     <h3>Watch create an account video</h3>
@@ -137,7 +137,7 @@ const AtalLabTraning = () => {
               <li>
                 <ul>
                   <li>
-                    <img src='https://www.agilent.com/cs/publishingimages/watch-a-video-to-create-an-Agilent-university-account.jpg'/>
+                    <img src='https://img.freepik.com/free-vector/flat-horizontal-banner-template-international-day-education-event_23-2149959250.jpg'/>
                   </li>
                   <li>
                     <h3>Watch create an account video</h3>
@@ -168,7 +168,7 @@ const AtalLabTraning = () => {
               <li>
                 <ul>
                   <li>
-                    <img src='https://www.agilent.com/cs/publishingimages/watch-a-video-to-create-an-Agilent-university-account.jpg'/>
+                    <img src='https://img.freepik.com/free-vector/flat-international-day-education-horizontal-banner-template_23-2149884477.jpg'/>
                   </li>
                   <li>
                     <h3>Watch create an account video</h3>
@@ -187,7 +187,7 @@ const AtalLabTraning = () => {
               <li>
                 <ul>
                   <li>
-                    <img src='https://www.agilent.com/cs/publishingimages/watch-a-video-to-create-an-Agilent-university-account.jpg'/>
+                    <img src='https://img.freepik.com/free-vector/flat-horizontal-banner-template-international-day-education-event_23-2149954800.jpg'/>
                   </li>
                   <li>
                     <h3>Watch create an account video</h3>
@@ -218,7 +218,7 @@ const AtalLabTraning = () => {
               <li>
                 <ul>
                   <li>
-                    <img src='https://www.agilent.com/cs/publishingimages/Agilent-University-Infographic.jpg'/>
+                    <img src='https://img.freepik.com/free-vector/flat-horizontal-banner-template-international-day-education_23-2149941166.jpg'/>
                   </li>
                   <li>
                     <h1>Join our global network of scientists
@@ -238,7 +238,7 @@ const AtalLabTraning = () => {
               <li>
                 <ul>
                   <li>
-                    <img src='https://www.agilent.com/cs/publishingimages/Agilent-University-Infographic.jpg'/>
+                    <img src='https://img.freepik.com/free-vector/gradient-back-school-horizontal-sale-banner-template_23-2149484540.jpg'/>
                   </li>
                   <li>
                     <h1>Join our global network of scientists
@@ -257,7 +257,7 @@ const AtalLabTraning = () => {
               <li>
                 <ul>
                   <li>
-                    <img src='https://www.agilent.com/cs/publishingimages/Agilent-University-Infographic.jpg'/>
+                    <img src='https://img.freepik.com/free-vector/flat-international-day-education-horizontal-banner-template_23-2149881176.jpg'/>
                   </li>
                   <li>
                     <h1>Join our global network of scientists

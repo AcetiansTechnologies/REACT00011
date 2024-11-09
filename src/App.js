@@ -32,6 +32,7 @@ import Nav from './Components/TopAndBottom/Nav'
 
 function App() {
   return (
+    
     <BrowserRouter>
     <Nav  className="appnav"/>
     <Routes>

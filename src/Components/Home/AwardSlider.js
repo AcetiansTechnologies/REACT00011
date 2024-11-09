@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import Img1 from './HomeIMage/Img9.jpeg';
-import Img2 from './HomeIMage/Imgae2.jpeg';
-import Img3 from './HomeIMage/IMG-20241107-WA0004.jpg';
-import Img4 from './HomeIMage/IMG-20241107-WA0007.jpg';
-import Img5 from './HomeIMage/Img1.jpeg';
-import Img6 from './HomeIMage/Img2.jpeg';
-import Img7 from './HomeIMage/Img3.jpeg';
-import Img8 from './HomeIMage/Img4.jpeg';
-import Img9 from './HomeIMage/Img5.jpeg';
+import Img1 from './HomeIMage/aw1.jpeg';
+import Img2 from './HomeIMage/aw2.jpeg';
+import Img3 from './HomeIMage/aw3.jpeg';
+import Img4 from './HomeIMage/aw4.jpg';
+import Img5 from './HomeIMage/aw5.jpg';
+import Img6 from './HomeIMage/aw6.jpg';
+import Img7 from './HomeIMage/aw7.jpg';
+import Img8 from './HomeIMage/aw8.jpg';
+import Img9 from './HomeIMage/aw9.jpg';
 
 const cardsData = [
   {

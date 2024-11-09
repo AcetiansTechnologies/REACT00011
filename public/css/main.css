@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
   padding: 0px;
   margin: 0px;
@@ -6,8 +8,7 @@
 body {
   
   font-optical-sizing: auto;  
-  font-family: Barlow, Arial, sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -30,6 +31,10 @@ a {
   font-weight: 700;
 }
 
+p{
+  font-size: 15px;
+}
+
 
 
 /* -------------Top-Nav-Bar-------------- */
@@ -41,7 +46,7 @@ a {
 
 .Top-Nav-Bar {
   padding: 0px 5vw 0vw 5vw;
-  background: rgba(89, 89, 89, 0.445);
+  background: rgba(72, 72, 72, 0.601);
 }
 
 .Top-Nav-Bar>ul {
@@ -66,8 +71,7 @@ a {
 }
 .Top-Nav-Bar>ul>li:first-child>ul>li>p{
   font-size: 15px;
-  color: rgb(0, 0, 0);
-  font-family: arial;
+  color: rgb(255, 255, 255);
 }
 
 .Top-Nav-Bar>ul>li:last-child>ul {
@@ -570,7 +574,6 @@ textarea {
   border: none;
   background: none;
   cursor: pointer;
-  font-family: arial;
 }
 
 .cta:before {
@@ -651,7 +654,7 @@ textarea {
 }
 
 .Privacy>div>p {
-  font-size: 15px;
+  font-size: 1.2vw;
   margin-bottom: 10px;
   text-align: justify;
 }
@@ -659,11 +662,12 @@ textarea {
 
 
 .Mission {
-  padding: 100px;
+  padding: 2rem 2rem 4rem 3rem;
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  background-color: #28a28a23;
 }
 
 .Mission>ul {
@@ -698,13 +702,14 @@ textarea {
 
 .mission-img {
   width: 100px;
+  mix-blend-mode: multiply;
 }
 
 .mission-box>li:last-child>p {
   width: 350px;
   text-align: center;
   padding-top: 4vh;
-  font-size: 16px;
+  font-size: 1.2vw;
 }
 
 .Advisory-board {
@@ -723,18 +728,18 @@ textarea {
 
 .about-us-container{
   display: flex;
-  flex-direction: row;
-  padding: 5vw;
+  flex-wrap: wrap;
+  padding: 2vh 5vw 1vh 5vw;
+}
+.about-us-container>div{
+  width: 50%;
 }
 
 .about-us-container>div:last-child>img{
-  width: 80%;
+  width:100%;
 }
 .about-us-container>div:last-child{
   display: flex;
-  justify-content: center;
-  align-items:center;
-  padding-top: 65px;
 }
 
 
@@ -761,6 +766,7 @@ textarea {
 }
 
 .Advisory-board>h1 {
+  font-size: 3rem;
   padding-bottom: 40px;
 }
 
@@ -774,7 +780,7 @@ textarea {
 }
 
 .text-box {
-  width: 50%;
+  width: 100%;
   padding: 20px;
   border-radius: 8px;
 
@@ -782,14 +788,14 @@ textarea {
 
 .text-box h2 {
   margin-bottom: 15px;
-  font-size: 1.8rem;
+  font-size: 3rem;
   color: #333;
 }
 
 .text-box p {
   text-align: justify;
   margin-bottom: 10px;
-  font-size: 1rem;
+  font-size: 1.2vw;
   color: #666;
 }
 
@@ -806,7 +812,7 @@ textarea {
 
 
 .CoEs {
-  padding: 90px;
+  padding: 3vw 8vw 3vw 8vw;
   background-color: #fffcd7;
 }
 
@@ -975,12 +981,16 @@ textarea {
   width: 100px;
   border: 2px solid orange;
 }
+.Section3{
+}
 
 .Section3>ul {
   display: flex;
   flex-direction: row;
-  gap: 20px;
-  padding: 50px;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  padding: 3vw;
 }
 
 .Section3>ul>li:nth-child(1)>ul>li:first-child>img {
@@ -991,7 +1001,7 @@ textarea {
 }
 
 .Section3>ul>li {
-  width: 500px;
+  width: 40vw;
   height: inherit;
 }
 
@@ -1038,7 +1048,22 @@ textarea {
 /* ----------------News & Updates---------------- */
 
 .NewsAndUpdates {
-  padding: 5vw 10vw 5vw 10vw;
+  padding: 0vw 10vw 5vw 10vw;
+}
+
+.news-search{
+  display: flex;
+  padding: 0vw 10vw 0vw 10vw;
+  justify-content: end;
+}
+
+.news-heading{
+  padding: 2vw 10vw 2vw 10vw;
+}
+.news-heading>h1{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: start;
 }
 
 .NewsAndUpdates>ul {
@@ -1173,7 +1198,7 @@ Page-Change>ul>li:nth-child(5) {
 ---------Educayional Award----------- */
 
 .Educational-Award {
-  padding: 2vw 12vw 6vw 12vw;
+  padding: 2vw 8vw 6vw 8vw;
 }
 
 .Educational-Award>ul {
@@ -1184,13 +1209,13 @@ Page-Change>ul>li:nth-child(5) {
 .Educational-Award>ul>li:nth-child(1)>ul {
   display: flex;
   flex-wrap: wrap;
-  box-shadow: 0px 0px 16px -9px rgba(0, 0, 0, 0.75);
+  /* box-shadow: 0px 0px 16px -9px rgba(0, 0, 0, 0.75); */
   flex-direction: row;
   margin-bottom: 3vh;
 }
 
 .Educational-Award>ul>li:nth-child(1)>ul>li:nth-child(2) {
-  background-color: #ebebeb;
+  background-color: #fffefe;
   padding: 1vw;
 }
 
@@ -1202,7 +1227,7 @@ Page-Change>ul>li:nth-child(5) {
 
 .Educational-Award>ul>li:first-child>ul>li>img {
   width: 100%;
-  height: 71vh;
+  height: 100%;
 }
 
 .Educational-Award>ul>li:nth-child(1)>ul>li:nth-child(2)>ul {
@@ -1225,7 +1250,7 @@ Page-Change>ul>li:nth-child(5) {
 
 .Educational-Award>ul>li:nth-child(1)>ul>li:nth-child(2)>ul>li:nth-child(3)>p {
   text-align: justify;
-  font-size: 1vw;
+  font-size: 1.2vw;
   padding-top: 2vh;
 }
 
@@ -1237,10 +1262,9 @@ Page-Change>ul>li:nth-child(5) {
 
 .Educational-Award>ul>li:nth-child(2)>p {
   background-color: #cccccc00;
-  padding: 1vw;
   text-align: justify;
   width: 100%;
-  box-shadow: 0px 0px 16px -9px rgba(0, 0, 0, 0.75);
+  /* box-shadow: 0px 0px 16px -9px rgba(0, 0, 0, 0.75); */
 }
 
 .Educational-Award>ul>li:nth-child(2) {
@@ -1258,6 +1282,10 @@ Page-Change>ul>li:nth-child(5) {
   width: 32.4%;
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
   transition: 0.3s ease-in-out;
+}
+.Educational-Award-Img>li>img{
+  width: 100%;
+  height: 100%;
 }
 
 .Educational-Award-Img>li:hover {
@@ -1308,7 +1336,7 @@ Page-Change>ul>li:nth-child(5) {
 /* BHARAT TALK */
 
 .Bharat-Talk{
-  padding: 6vw 10vw 6vw 10vw;
+  padding: 2vw 8vw 2vw 8vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1317,19 +1345,18 @@ Page-Change>ul>li:nth-child(5) {
 .Bharat-Talk>p>h1{
   font-size: 30px;
   font-weight: bold;
+  color: rgb(48, 48, 48);
 
-  padding: 0vw 0vw 1vw 0vw;
+  
 }
 .Bharat-Talk>p {
-  background-color: #cccccc00;
-  padding: 1vw;
-  text-align: justify;
-  width: 100%;
-  box-shadow: 0px 0px 16px -9px rgba(0, 0, 0, 0.75);
+  color: gray;
+  text-align: justify; 
   transition: 1s ease;
+  font-size: 1.2vw;
 }
 .Bharat-talk-boxes{
-  padding: 1vw 10vw 6vw 10vw;
+  padding: 1vw 8vw 6vw 8vw;
 }
 .Bharat-talk-boxes>ul{
   display: flex;
@@ -1341,6 +1368,7 @@ Page-Change>ul>li:nth-child(5) {
 .Bharat-talk-boxes>ul>li{
   flex-grow: 1;
   width: 40%;
+  height: 35vh;
   box-shadow: 0px 0px 16px -9px rgba(0, 0, 0, 0.75);
   transition: 0.60s ease;
 
@@ -1365,6 +1393,7 @@ width: 50%;
 }
 .Bharat-talk-boxes>ul>li>ul>li:nth-child(1)>img{
   width: 100%;
+  height: 35vh;
 }
 .Bharat-talk-boxes>ul>li>ul>li:nth-child(2)>ul{
   display: flex;
@@ -1372,7 +1401,7 @@ width: 50%;
   
 }
 .Bharat-talk-boxes>ul>li>ul>li:nth-child(2)>ul>li:nth-child(1)>h1{
-  font-size: 2.3vw;
+  font-size: 2vw;
   color: black;
 
 }
@@ -1398,7 +1427,6 @@ width: 50%;
 /* FDP */
 
 
-
 .FDP>ul>li:nth-child(1){
   display: flex;
   justify-content: center;
@@ -1419,7 +1447,7 @@ width: 50%;
 
 }
 .FDP>ul>li:nth-child(2){
-  padding: 0vw 12vw 0vw 12vw;
+  padding: 0vw 7vw 0vw 7vw;
 }
 
 .FDP>ul>li:nth-child(2)>ul{
@@ -1435,9 +1463,9 @@ width: 50%;
 }
 
 .FDP>ul>li:nth-child(2)>ul>li:nth-child(2)>p{
-  font-size: 12px;
+  font-size: 1vw;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
 }
 .FDP>ul>li:nth-child(2)>ul>li:nth-child(3)>ul{
 
@@ -1446,9 +1474,9 @@ width: 50%;
 
 }
 .FDP>ul>li:nth-child(3){
-  background-color: #6666669f;
-  color: white;
-  padding: 8vw 12vw 8vw 12vw;
+  background-color: #b5b5b59f;
+  color: rgb(0, 0, 0);
+  padding: 3vw 10vw 3vw 10vw;
 }
 
 .FDP>ul>li:nth-child(3)>ul{
@@ -1462,27 +1490,21 @@ width: 50%;
 
   font-size:  2vw;
   font-weight: 700;
-  padding-bottom: 4vh;
+ 
 }
 .FDP>ul>li:nth-child(3)>ul>li:nth-child(2)>p{
   font-size: 1vw;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
-  padding-bottom: 4vh;
+  padding: 2vw;
 }
 .FDP>ul>li:nth-child(3)>ul>li:nth-child(3)>img{
   width: 100%;
 }
-.Educational-Award-1>ul>li:nth-child(1)>ul {
-  display: flex;
-  box-shadow: 0px 0px 16px -9px rgba(0, 0, 0, 0.75);
-  flex-direction: row;
-  margin-bottom: 3vh;
-  margin-top: 5vh;
-}
+
 
 .FDP>ul>li:nth-child(4){
-  padding: 8vw 12vw 8vw 12vw;
+  padding: 0vw 8w 8vw 8vw;
 
 }
 .FDP>ul>li:nth-child(4)>ul{
@@ -1494,19 +1516,25 @@ width: 50%;
 
 .FDP>ul>li:nth-child(4)>ul>li:nth-child(1)>h1{
   font-size: 2vw;
+  padding: 2vw;
   font-weight: 700;
 }
 
 
 .Educational-Award>ul>li:nth-child(1)>ul>li:nth-child(2) {
-  background-color: #ebebeb;
-  padding: 1vw;
+  
+  padding: 0vh 1vw 0vh 1vw;
+}
+
+.Educational-Award-1>ul>li:nth-child(1)>ul {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3vh;
+  margin-top: 5vh;
 }
 
 .Educational-Award-1>ul>li:first-child>ul>li {
-
   width: 50%;
-
 }
 .Educational-Award-1>ul>li:first-child>ul>li{
   display: flex;
@@ -1515,7 +1543,8 @@ width: 50%;
 
 .Educational-Award-1>ul>li:first-child>ul>li>img {
   width: 100%;
-  height: 50vh;
+  height: 100%;
+  border-radius: 5px;
 }
 
 .Educational-Award-1>ul>li:nth-child(1)>ul>li:nth-child(2)>ul {
@@ -1539,7 +1568,8 @@ width: 50%;
 .Educational-Award-1>ul>li:nth-child(1)>ul>li:nth-child(2)>ul>li:nth-child(3)>p {
   padding: 0vw 2vw 0.5vw 2vw;
   text-align: justify;
-  font-size: 1vw;
+  font-size: 1.2vw;
+  font-weight: 500;
 }
 
 .Educational-Award-1>ul>li:nth-child(2) {
@@ -1548,22 +1578,8 @@ width: 50%;
   justify-content: center;
 }
 
-
-table {
-  width: 80vw;
-  border-collapse: collapse;
-}
-th {
-  background-color: orange;
-  padding: 10px;
-}
-td {
-  padding: 10px;
-  border: 1px solid #ddd;
-  cursor: pointer;
-}
 .FDP>ul>li:nth-child(5){
-  padding: 0vw 12vw 4vw 12vw;
+  padding: 2vw 9vw 4vw 12vw;
 
 }
 .FDP>ul>li:nth-child(5)>ul{
@@ -1592,30 +1608,54 @@ td {
 }
 
 
+table {
+  width: 80vw;
+  border-collapse: collapse;
+}
+th {
+  background-color: orange;
+  padding: 10px;
+}
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
 .AtalLabTraning>ul{
-  padding: 8vw 12vw 3vw 12vw;
+  padding: 3vw 8vw 3vw 8vw;
 }
 .AtalLabTraning>ul>li{
   padding-bottom: 2vh;
 }
 .AtalLabTraning>ul>li:nth-child(1)>h1{
   font-size: 2vw;
-  font-weight: 400;
+  font-weight: 700;
 }
 .AtalLabTraning>ul>li:nth-child(2)>p{
   font-size: 1.2vw;
+  color: #656565;
+}
+.AtalLabTraning>ul>li:nth-child(3)>p{
+  font-size: 1.2vw;
+  color: #656565;
 }
 .AtalLabTraning>ul>li:nth-child(4)>button{
   padding: 10px;
   border: none;
-
+  font-size: 13px;
 color: white;  background-color: orangered;
+border-radius: 5px;
+}
+.AtalLabTraning>ul>li:nth-child(4)>button:hover{
+  opacity: 0.6;
+  color: white;
 }
 .Atal-training{
   background-color: #66666621;
 }
 .Atal-training>ul{
-  padding: 1vw 12vw 8vw 12vw;
+  padding: 1vw 8vw 8vw 8vw;
 }
 .Atal-training>ul>li:nth-child(2)>ul{
   display: flex;
@@ -1627,10 +1667,12 @@ color: white;  background-color: orangered;
   width: 32.6%;
   padding: 1vw;
   transition: 0.25s;
+  background-color: white;
 }
 
 .Atal-training>ul>li:first-child>h1{
   font-size: 2vw;
+  font-weight: 600;
   padding: 4vw 0vw 2vw 1vw;
 }
 .Atal-training>ul>li:last-child>ul>li>ul{
@@ -1641,9 +1683,13 @@ color: white;  background-color: orangered;
 .Atal-training>ul>li:last-child>ul>li>ul>li:nth-child(1)>img{
   width: 100%;
   cursor: pointer;
+
+  height: 35vh;
 }
 .Atal-training>ul>li:last-child>ul>li>ul>li:nth-child(2)>h1{
-  font-size: 1.8vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  
 }
 .Atal-training>ul>li:last-child>ul>li>ul>li:nth-child(3)>p{
   font-size: 1.1vw;
@@ -1653,7 +1699,13 @@ color: white;  background-color: orangered;
 .Atal-training>ul>li:last-child>ul>li>ul>li:nth-child(4)>button{
   padding: 10px;
   border: none;
+  font-size: 13px;
 color: white;  background-color: orangered;
+border-radius: 5px;
+}
+.Atal-training>ul>li:last-child>ul>li>ul>li:nth-child(4)>button:hover{
+  opacity: 0.6;
+  color: white;
 }
 .Atal-training>ul>li:nth-child(2)>ul>li:hover{
   box-shadow: 0px 0px 16px -9px rgba(0, 0, 0, 0.75);
@@ -1663,12 +1715,13 @@ color: white;  background-color: orangered;
 .Atal-training-2>ul{
   display: flex;
   flex-direction: column;
-  padding: 1vw 12vw 8vw 12vw;
+  padding: 1vw 8vw 4vw 8vw;
   border-bottom: 1px solid rgba(211, 211, 211, 0.367);
 }
 .Atal-training-2>ul>li:first-child>h2{
   font-size: 2vw;
   padding: 2vw 2vw 2vw 0vw;
+  font-weight: 600;
 }
 .Atal-training-2>ul>li:last-child>ul>li{
   width: 49.5%;
@@ -1699,7 +1752,9 @@ color: white;  background-color: orangered;
 .Atal-training-2>ul>li:last-child>ul>li>ul>li:nth-child(4)>button{
   padding: 10px;
   border: none;
+  font-size: 13px;
 color: white;  background-color: orangered;
+border-radius: 5px;
 
 }
 
@@ -1709,12 +1764,16 @@ color: white;  background-color: orangered;
 }
 
 .Internationalcollo>ul{
-  padding: 1vw 4vw 8vw 4vw;
+  padding: 1vw 8vw 4vw 8vw;
+}
+.Internationalcollo>ul>li:nth-child(1){
+  padding-bottom: 3vh;
 }
 .Internationalcollo>ul>li:nth-child(1)>p{
-  font-size: 19px;
-  padding-bottom: 2vh;
-  font-family: Barlow, Arial, sans-serif;
+  font-size: 1.2vw;
+  text-align: justify;
+  padding-bottom: 1vh;
+  
 
 }
 .Internationalcollo>ul>li:nth-child(2)>ul{
@@ -1723,6 +1782,7 @@ color: white;  background-color: orangered;
   gap: 3vw;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2vh;
 }
 .Internationalcollo>ul>li:nth-child(2)>ul>li>ul{
   display: flex;
@@ -1850,7 +1910,7 @@ color: white;  background-color: orangered;
   gap: 15px;
   justify-content: center;
   align-items: center;
-  padding: 4vw 12vw 4vw 10vw;
+  padding: 4vw 8vw 4vw 8vw;
   background-color: rgba(255, 160, 206, 0.17);
   
 }
@@ -1891,7 +1951,7 @@ color: white;  background-color: orangered;
 .Summit>ul>li:nth-child(2)>ul{
   display: flex;
   flex-direction: column;
-  padding: 4vw;
+  padding: 2vh 8vw 2vh 8vw;
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   
 }
@@ -1968,7 +2028,7 @@ color: white;  background-color: orangered;
 
 }
 .Summit>ul>li:nth-child(4)>ul>li:nth-child(2)>ul>li{
-  width: 48%;
+  width: 49%;
 }
 .Summit>ul>li:nth-child(4)>ul>li:nth-child(2)>ul>li>ul{
   display: flex;
@@ -2004,7 +2064,7 @@ color: white;  background-color: orangered;
 
 }
 .Confrences>ul>li:nth-child(1)>h1{
-    padding: 4vw 10vw 0vw 10vw;
+    padding: 4vw 8vw 0vw 8vw;
     font-size: 3vw;
     font-size: 700;
 }
@@ -2012,7 +2072,7 @@ color: white;  background-color: orangered;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  padding: 4vw 10vw 0vw 10vw;
+  padding: 4vw 8vw 4vw 8vw;
 }
 
 .Confrences>ul>li:nth-child(2)>ul>li{
@@ -2066,7 +2126,7 @@ color: white;  background-color: orangered;
 }
 
 .DigitalMagazine>ul{
-  padding: 2vw 10vw 2vw 10vw;
+  padding: 2vw 8vw 2vw 8vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -2146,7 +2206,8 @@ color: white;  background-color: orangered;
 .wwa-home>ul>li:nth-child(1)>ul>li:nth-child(2)>p{
   padding-bottom: 10px;
   text-align: justify;
-  color: white;
+
+  font-size: 1.2vw;  color: white;
 }
 .wwa-home>ul>li:nth-child(1)>ul>li:nth-child(2)>button{
  
@@ -2213,7 +2274,7 @@ color: white;  background-color: orangered;
   background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/023/186/small_2x/multinational-group-of-people-isolated-on-white-background-children-adults-and-teenagers-stand-together-illustration-vector.jpg");
   width: 100%;
   height: 85vh;
-  background-color: var(--contrast);
+  
   color: #fff;
   position: relative;
   background-size: 100% 100%;
@@ -2235,11 +2296,8 @@ color: white;  background-color: orangered;
   width: 100%;
   height: 100%;
   margin: auto;
-  background: linear-gradient(
-    to left,
-    rgb(0, 0, 70, 0.4),
-    rgb(28, 181, 224, 0.6)
-  );
+  background: rgb(17,12,14);
+background: radial-gradient(circle, rgba(17,12,14,0.5578606442577031) 100%, rgba(238,174,202,1) 100%, rgba(0,0,0,1) 100%);
 }
 .WhyBharat>ul{
   max-width: var(--container-width-min);
@@ -2359,19 +2417,52 @@ color: white;  background-color: orangered;
 
 
 .OurPartner{
-padding-top: 4vh;
-background-color: rgba(132, 130, 130, 0.256);
+
 }
 .OurPartner>ul>li:nth-child(1){
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .OurPartner>ul>li:nth-child(1)>h1{
 font-size: 50px;
 }
-.OurPartner>ul>li:nth-child(2){
+
+
+
+
+.WhyBharat{
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/023/186/small_2x/multinational-group-of-people-isolated-on-white-background-children-adults-and-teenagers-stand-together-illustration-vector.jpg");
+  width: 100%;
+  height: 85vh;
+  
+  color: #fff;
+  position: relative;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  animation: carouselimagezoom 35s infinite alternate;
+  z-index: 1;
+}
+
+.WhyBharat::before {
+  z-index: 1;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: rgb(17,12,14);
+background: radial-gradient(circle, rgba(17,12,14,0.5578606442577031) 100%, rgba(238,174,202,1) 100%, rgba(0,0,0,1) 100%);
+}
+.OurPartner>ul>li:nth-child(1){
   background-image: url("https://globalmaps.org/wp-content/uploads/2023/10/World-Map-white-2048x1171.png");
   
 
@@ -2382,7 +2473,7 @@ background-repeat: no-repeat;
  opacity: 0.9;
 }
 
-.OurPartner>ul>li:nth-child(2)>ul{
+.OurPartner>ul>li:nth-child(1)>ul{
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
@@ -2392,16 +2483,119 @@ background-repeat: no-repeat;
   height: 100%;
  
 }
-.OurPartner>ul>li:nth-child(2)>ul>li{
+.OurPartner>ul>li:nth-child(1)>h1{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 500;
+}
+.OurPartner>ul>li:nth-child(1)>ul>li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 20%;
   padding: 1vw;
-  background-color: rgba(132, 130, 130, 0.115);
+
+  border-radius: 5px;
 }
-.OurPartner>ul>li:nth-child(2)>ul>li>img{
-  width: 100%;
+.OurPartner>ul>li:nth-child(1)>ul>li>img{
+  width: 10vw;
+  height: auto;
+  mix-blend-mode: multiply;
 }
 .appnav{
   position: sticky;
+}
+
+
+
+.WhyBharat{
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/023/186/small_2x/multinational-group-of-people-isolated-on-white-background-children-adults-and-teenagers-stand-together-illustration-vector.jpg");
+  width: 100%;
+  height: 85vh;
+  
+  color: #fff;
+  position: relative;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  animation: carouselimagezoom 35s infinite alternate;
+  z-index: 1;
+}
+
+.WhyBharat::before {
+  z-index: 1;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: rgb(17,12,14);
+background: radial-gradient(circle, rgba(17,12,14,0.5578606442577031) 100%, rgba(238,174,202,1) 100%, rgba(0,0,0,1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+.OurRecruiters>ul>li:nth-child(1){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.OurRecruiters>ul>li:nth-child(1)>h1{
+font-size: 50px;
+}
+
+
+
+.OurRecruiters>ul>li:nth-child(1){
+  background-image: url("https://png.pngtree.com/background/20220725/original/pngtree-white-and-gray-gradient-background-picture-image_1779742.jpg");
+  background-size: 100vw 100%;
+background-repeat: no-repeat;
+
+}
+
+.OurRecruiters>ul>li:nth-child(1)>ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 3vh;
+  height: 100%;
+ 
+}
+.OurRecruiters>ul>li:nth-child(1)>h1{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 500;
+}
+.OurRecruiters>ul>li:nth-child(1)>ul>li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 1vw;
+
+  border-radius: 5px;
+}
+.OurRecruiters>ul>li:nth-child(1)>ul>li>img{
+  width: 10vw;
+  height: auto;
+  mix-blend-mode: multiply;
 }
 
 
@@ -2411,7 +2605,9 @@ background-repeat: no-repeat;
 }
 
 .SkillsRanking{
-  padding: 4vh 4vw 4vh 4vw;
+  padding: 0vh 4vw 4vh 4vw;
+  background-color: rgba(135, 206, 250, 0.087);
+  border-top: 1px solid rgba(211, 211, 211, 0.298);
 }
 
 .SkillsRanking>ul>li:nth-child(1)>h1{
@@ -2430,13 +2626,15 @@ background-repeat: no-repeat;
 }
 
 .SkillsRanking>ul>li:nth-child(2)>ul>li{
+  padding: 1vw;
   width: 100%;
-  height:90vh;
+  height:100%;
   transition: 0.5s ease;
   border: 1px solid rgba(0, 0, 0, 0.256); ;
+  background-color: white;
 }
 .SkillsRanking>ul>li:nth-child(2)>ul>li:hover{
-  box-shadow:  4px 8px rgba(0, 0, 0, 0.256);
+  box-shadow:  4px 4px rgba(0, 0, 0, 0.256);
 }
 .SkillsRanking>ul>li:nth-child(2)>ul>li>ul{
   display: flex;
@@ -2445,24 +2643,29 @@ background-repeat: no-repeat;
 }
 
 .SkillsRanking>ul>li:nth-child(2)>ul>li>ul>li:nth-child(1)>img{
-  width: 100%;
-  height: 50vh;
+  width: 100vw;
+  height: 40vh;
 }
 
 
 .SkillsRanking>ul>li:nth-child(2)>ul>li>ul>li:nth-child(2)>p{
   text-align: justify;
   padding: 1vw;
-  font-size: 15px;
+  font-size: 1.2vw;
   color: #666;
 }
 
 .SkillsRanking>ul>li:nth-child(2)>ul>li>ul>li:nth-child(3)>button{
-  background-color: rgb(88, 88, 255);
+  background-color: #03a9f4;
   border: none;
-  padding: 0.5vw;
+  padding: 1vw;
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+
+}
+.SkillsRanking>ul>li:nth-child(2)>ul>li>ul>li:nth-child(3)>button:hover{
+  background-color: #28a289;
 }
 
 
@@ -2541,12 +2744,11 @@ background-repeat: no-repeat;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .text-box>li:nth-child(1)>h1{
-  font-size: 2.5vw;
+  font-size: 4vw;
   text-align: center;
   font-weight: bold;
 }
@@ -2612,4 +2814,85 @@ background-repeat: no-repeat;
   color:white;
 
 }
+.sb-footer-section-padding{
+  padding: 1rem 2rem 1rem;
+}
+.footer{
+  background-color: rgba(255, 255, 255, 0.859);
+}
 
+.sb-footer{
+  display: flex;
+  flex-direction: column;
+}
+.sb-footer-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.sb-footer-links-div{
+  width: 150px;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: rgb(78, 78, 78);
+}
+a{
+  color: rgb(21, 21, 21);
+  text-decoration: none;
+}
+.socialmedia{
+  display: flex;
+  flex-direction: row;
+}
+
+.socialmedia img{
+  width: 80%;
+}
+
+.sb-footer-links-div h4{
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  line-height: 17px;
+  margin-bottom: 0.9rem;
+}
+.sb-footer-links-div p{
+  font-size: 14px;
+  line-height: 15px;
+  margin: 0.9rem 0;
+  cursor: pointer;
+}
+.sb-footer-below{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+}
+.sb-footer-below-links{
+  display: flex;
+  flex-direction: row;
+}
+.sb-footer-below-links p{
+  font-size: 13px;
+  line-height: 15px;
+  margin-left: 2rem;
+  color: rgb(92, 91, 91);
+  font-weight: 600;
+}
+.hr{
+  color: rgb(91, 90, 90) !important;
+  width: 100%;
+}
+.sb-footer-copyright p{
+  font-size: 13px;
+  line-height: 15px;
+  color: rgb(79, 79, 79);
+  font-weight: 600;
+}

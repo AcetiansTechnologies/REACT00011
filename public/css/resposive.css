@@ -35,7 +35,7 @@
 
     .hero-img {
         width: 100vw;
-        height: 80vh;
+        height: 38vh;
         border-radius: 1px;
 
     }
@@ -115,13 +115,14 @@
         padding-bottom: 10px;
         text-align: justify;
         color: white;
+        font-size: 1rem;
     }
 
     .wwa-home>ul>li:nth-child(1)>ul>li:nth-child(2)>button {
 
         color: white;
         border: none;
-        padding: 0.6vw;
+        padding: 1vw;
         border-radius: 8px;
         cursor: pointer;
         background-color: #0080ff;
@@ -1139,7 +1140,7 @@
 
     .carousel-1 {
         width: 100%;
-        height: 85vh;
+        height: 50vh;
         background-color: var(--contrast);
         color: #fff;
         position: relative;
@@ -1191,12 +1192,12 @@
     }
 
     .element>h1 {
-        font-size: 30px;
+        font-size: 25px;
 
     }
 
     .element>div {
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 500;
 
     }
@@ -1701,13 +1702,13 @@
   .Educational-Award>ul>li:nth-child(1)>ul {
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 0px 0px 16px -9px rgba(0, 0, 0, 0.75);
+
     flex-direction: row;
     margin-bottom: 3vh;
   }
   
   .Educational-Award>ul>li:nth-child(1)>ul>li:nth-child(2) {
-    background-color: #ebebeb;
+    background-color: #ffffff;
     padding: 1vw;
   }
   
@@ -1728,12 +1729,27 @@
   }
   
   .Educational-Award>ul>li:nth-child(1)>ul>li:nth-child(2)>ul>li:nth-child(1)>h1 {
-    font-size: 5vw;
+    font-size: 7vw;
     font-weight: 500;
+  }
+  .news-search{
+    display: flex;
+    padding: 1vh 10vw 1vh 10vw;
+    justify-content: end;
+  }
+  
+  .news-heading{
+    padding: 2vw 10vw 2vw 10vw;
+  }
+  .news-heading>h1{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    text-align: start;
   }
   
   .Educational-Award>ul>li:nth-child(1)>ul>li:nth-child(2)>ul>li:nth-child(2)>h3 {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     font-weight: 500;
     color: orange;
   }
@@ -1759,6 +1775,7 @@
   }
   
   .Educational-Award>ul>li:nth-child(2) {
+    display: none;
     margin-bottom: 4vh;
   }
   
@@ -2217,6 +2234,58 @@
   
   
 
+}
 
 
+
+@media screen and (max-width: 768px){
+  .sb-footer-heading h1{
+      font-size: 44px;
+      line-height: 50px;
+  }
+  .sb-footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  } 
+}
+@media screen and (max-width: 768px){
+  .sb-footer-heading h1{
+      font-size: 34px;
+      line-height: 42px;
+  }
+  .sb-footer-section-padding{
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .sb-footer-links div{
+      margin: 0rem 0;
+      width: 47%;
+      margin-bottom: 2rem;
+  }
+  .sb-footer-btn p{
+      font-size: 14px;
+      line-height: 20px;
+  }
+  .sb-footer-below{
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+
+  }
+  .sb-footer-below-links{
+    gap: 4vw;
+      flex-direction: row;
+  }
+  .sb-footer-below-links p{
+      margin-left: 0rem;
+      margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .sb-footer-heading h1{
+      font-size: 1.3vw;
+      line-height: 38px;
+  }
 }
