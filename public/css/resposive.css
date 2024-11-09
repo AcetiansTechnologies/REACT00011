@@ -1491,14 +1491,14 @@
   
 
 .FDP>ul>li:nth-child(1){
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     background-color: black;
     height: 8vh;
   }
   .FDP>ul>li:nth-child(1)>ul{
-    display: flex;
+    display: none;
     flex-direction: row;
    color: white;
    font-size: 6px;
