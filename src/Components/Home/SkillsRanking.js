@@ -46,7 +46,7 @@ const SkillsRanking = () => {
                             <img src={Img3}/>
                             </li>
                             <li>
-                                <p>Launched by the Prof Anil D Sahasrabudhe, Chairman- NETF & NBA, Prof. Krishan Aggarwal, Former Chairman, National Board of Accreditation, Shri Sambasiva Reddy Aluru, Advisor to Government(Education), Govt. of Andhra Pradesh, Shri. Kranti Singh, Chief Administrative Officer, AICTE at Bharat Rites 𝐂𝐨𝐧𝐧𝐞𝐜𝐭- 2022 on 23rd Dec 2022 at Radisson Blu Plaza Delhi Airport, New Delhi.</p>
+                                <p>Launched by the Prof Anil D Sahasrabudhe, Chairman- NETF & NBA, Prof. Krishan Aggarwal, Former Chairman, National Board of Accreditation, Shri Sambasiva Reddy Aluru, Advisor to Government(Education), Govt. of Andhra Pradesh, Shri. Kranti Singh, Chief Administrative Officer, AICTE at Bharat Rites 𝐂𝐨𝐧𝐧𝐞𝐜𝐭- 2022 on 23rd Dec 2022</p>
                             </li>
                             <li>
                                 <button>Bharat Rites Ranking 2022</button>

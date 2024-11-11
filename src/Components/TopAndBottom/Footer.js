@@ -55,6 +55,12 @@ function Footer() {
             <Link to="/whitepapers" onClick={handleLinkClick}>
               <p>White Papers</p>
             </Link>
+            <Link to="/confrence" onClick={handleLinkClick}>
+              <p>Conferences</p>
+            </Link>
+            <Link to="/summit" onClick={handleLinkClick}>
+              <p>Summits</p>
+            </Link>
           </div>
           <div className="sb-footer-links-div">
             <h4>Company</h4>

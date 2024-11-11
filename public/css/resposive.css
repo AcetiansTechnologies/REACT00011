@@ -156,14 +156,14 @@
     }
 
     .SkillsRanking {
-        padding: 4vh 4vw 4vh 4vw;
+        padding: 0vh 4vw 4vh 4vw;
     }
 
     .SkillsRanking>ul>li:nth-child(1)>h1 {
         text-align: center;
         font-size: 25px;
         font-weight: bold;
-        padding: 3vh 0vw 3vh 0vw;
+        padding: 5vw;
     }
 
     .SkillsRanking>ul>li:nth-child(2)>ul {
@@ -195,7 +195,7 @@
     }
 
     .SkillsRanking>ul>li:nth-child(2)>ul>li>ul>li:nth-child(1)>img {
-        width: 100%;
+        width: 100vw;
     }
 
     .SkillsRanking>ul>li:nth-child(2)>ul>li>ul>li:nth-child(2)>p {
@@ -407,7 +407,6 @@
 
     .OurPartner {
         padding-top: 0vw;
-        background-color: white;
     }
 
     .OurPartner>ul>li:nth-child(1) {
@@ -417,42 +416,91 @@
     }
 
     .OurPartner>ul>li:nth-child(1)>h1 {
-        font-size: 28px;
-        font-weight: bold;
-        padding: 2vw;
+      font-size: 33px;
+      text-align: center;
+      font-weight: 500;
     }
 
     .OurPartner>ul>li:nth-child(2) {
         background-image: url("https://globalmaps.org/wp-content/uploads/2023/10/World-Map-white-2048x1171.png");
-
-
-        background-size: cover;
-
+        background-size: 100vw 100%;
         background-repeat: no-repeat;
-
-        opacity: 0.9;
     }
 
     .OurPartner>ul>li:nth-child(2)>ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 5px;
-        justify-content: center;
-        align-items: center;
-        padding: 3vh;
-        height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5vw;
+      justify-content: center;
+      align-items: center;
+      padding: 3vh;
+      height: 100%;
 
     }
 
     .OurPartner>ul>li:nth-child(2)>ul>li {
-        width: 20%;
-        padding: 1vw;
-        background-color: rgba(132, 130, 130, 0.115);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 20%;
+      padding: 1vw;
+      border-radius: 5px;
     }
 
-    .OurPartner>ul>li:nth-child(2)>ul>li>img {
-        width: 100%;
+
+    .OurPartner>ul>li:nth-child(1)>ul>li>img{
+      width: 16vw;
+      height: auto;
+      mix-blend-mode: multiply;
     }
+
+    
+
+.OurRecruiters>ul>li:nth-child(1){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.OurRecruiters>ul>li:nth-child(1){
+  background-image: url("https://png.pngtree.com/background/20220725/original/pngtree-white-and-gray-gradient-background-picture-image_1779742.jpg");
+  background-size: 100vw 100%;
+background-repeat: no-repeat;
+
+}
+
+.OurRecruiters>ul>li:nth-child(1)>ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vw;
+  justify-content: center;
+  align-items: center;
+  padding: 3vh;
+  height: 100%;
+ 
+}
+.OurRecruiters>ul>li:nth-child(1)>h1{
+  font-size: 33px;
+  text-align: center;
+  font-weight: 500;
+}
+.OurRecruiters>ul>li:nth-child(1)>ul>li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 1vw;
+  border-radius: 5px;
+}
+.OurRecruiters>ul>li:nth-child(1)>ul>li>img{
+  width: 16vw;
+  height: auto;
+  mix-blend-mode: multiply;
+}
+
 
     .appnav {
         position: sticky;
@@ -723,7 +771,7 @@
 
 
     .Mission {
-        padding: 100px;
+        padding: 4vh 5vw 4vh 5vw;
         display: flex;
         flex-direction: column;
         justify-items: center;
@@ -738,8 +786,8 @@
     }
 
     .Mission>ul>li>h1 {
-        margin-bottom: 70px;
-        font-size: 40px;
+        margin-bottom: 10px;
+        font-size: 1.8rem;
         width: 100%;
         text-align: center;
     }
@@ -765,8 +813,10 @@
         width: 100px;
     }
 
+
+
     .mission-box>li:last-child>p {
-        width: 350px;
+        width: 100vw;
         text-align: center;
         padding-top: 4vh;
         font-size: 16px;
@@ -812,6 +862,7 @@
 
     .Advisory-board>h1 {
         padding-bottom: 40px;
+        font-size: 2rem;
     }
 
 
@@ -831,7 +882,6 @@
         box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
         border-radius: 0.5vw;
         transition: 0.5s ease;
-
     }
 
     .NewsAndUpdates>ul>li:hover {
@@ -1388,7 +1438,12 @@
     border: none;
   
   color: white;  background-color: orangered;
+  }.AtalLabTraning>ul>li:nth-child(3)>p{
+    font-size: 3vw;
+    color: #656565;
   }
+
+
   .Atal-training{
     background-color: #66666621;
   }
@@ -1408,8 +1463,8 @@
   }
   
   .Atal-training>ul>li:first-child>h1{
-    font-size: 4vw;
-    padding: 4vw 0vw 2vw 1vw;
+    font-size: 5vw;
+    padding: 4vw 2vw 2vw 2vw;
   }
   .Atal-training>ul>li:last-child>ul>li>ul{
     display: flex;
@@ -2087,14 +2142,14 @@
   }
   .Bharat-Talk>p {
     background-color: #cccccc00;
-    padding: 1vw;
+    padding: 2vw;
     text-align: justify;
     width: 100%;
-    box-shadow: 0px 0px 16px -9px rgba(0, 0, 0, 0.75);
+   font-size: 4vw;
     transition: 1s ease;
   }
   .Bharat-talk-boxes{
-    padding: 4vw 4vw 6vw 4vw;
+    padding: 4vw 4vw 10vw 4vw;
   }
   .Bharat-talk-boxes>ul{
     display: flex;
@@ -2108,6 +2163,7 @@
     width: 100%;
     box-shadow: 0px 0px 16px -9px rgba(0, 0, 0, 0.75);
     transition: 0.60s ease;
+    height: auto;
   
   }
   .Bharat-talk-boxes>ul>li:hover{
@@ -2125,11 +2181,12 @@
     justify-content: center;
     align-items: center;
   color: white;
-  width: 50%;
+  width: 100%;
     
   }
   .Bharat-talk-boxes>ul>li>ul>li:nth-child(1)>img{
     width: 100%;
+    height: 22vh;
   }
   .Bharat-talk-boxes>ul>li>ul>li:nth-child(2)>ul{
     display: flex;
@@ -2166,8 +2223,8 @@
   padding: 4vw 4vw 4vw 4vw;
 }
 .Internationalcollo>ul>li:nth-child(1)>p{
-  font-size: 19px;
-  padding-bottom: 2vh;
+  font-size: 16px;
+  padding-bottom: 1vh;
 
 }
 .Internationalcollo>ul>li:nth-child(2)>ul{

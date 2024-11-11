@@ -981,8 +981,7 @@ textarea {
   width: 100px;
   border: 2px solid orange;
 }
-.Section3{
-}
+
 
 .Section3>ul {
   display: flex;
@@ -2416,9 +2415,6 @@ background: radial-gradient(circle, rgba(17,12,14,0.5578606442577031) 100%, rgba
 /* c/.about-us-container */
 
 
-.OurPartner{
-
-}
 .OurPartner>ul>li:nth-child(1){
   display: flex;
   justify-content: center;
