@@ -250,6 +250,32 @@
         transition: transform 1.5s ease;
     }
 
+
+
+    
+.Privacy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw 6vw 5vw;
+}
+
+.Privacy>div {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Privacy>div>h1 {
+  font-size: 30px;
+  padding: 15px 0px 15px;
+}
+
+.Privacy>div>p {
+  font-size: 3.4vw;
+  margin-bottom: 5px;
+  text-align: justify;
+}
     .card:hover {
         transform: translateY(-5Fwwpx) !important;
     }
