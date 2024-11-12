@@ -48,7 +48,7 @@ const HeroCarousel = () => {
   return (
     <div className="hero-carousel">
       <div>
-        <ul>
+        <ul id="mainCarouse">
           {slides.map((slide, index) => (
             <li
               key={index}

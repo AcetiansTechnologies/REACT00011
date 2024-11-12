@@ -2670,7 +2670,7 @@ background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
   display: flex;
-  background-image: url("https://media.istockphoto.com/id/1281736074/vector/abstract-geometric-pattern-background.jpg?s=612x612&w=0&k=20&c=rTHAuJPGgbaGZCDh6PAoVkJr3mTvn5WppwDHAPfNgoU=");
+  /* background-image: url("https://media.istockphoto.com/id/1281736074/vector/abstract-geometric-pattern-background.jpg?s=612x612&w=0&k=20&c=rTHAuJPGgbaGZCDh6PAoVkJr3mTvn5WppwDHAPfNgoU="); */
   padding: 4vw; 
   background-size: cover;
 }
@@ -2678,10 +2678,16 @@ background-repeat: no-repeat;
   width: 100vw;
   height: 80vh;
   display: flex;
+} 
+#mainCarouse{
+  display: flex;
+  flex-direction: row-reverse;
 }
+
 .hero-carousel > div > ul {
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
+
   justify-content: space-evenly;
   width: 100%;
 
